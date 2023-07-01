@@ -4,11 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
-/public/image
-/public/text
-/public/thumbnail-300
-/public/thumbnail-600
-/public/thumbnail-1000
+/public/image/*
+/public/text/*
+/public/thumbnail-300/*
+/public/thumbnail-600/*
+/public/thumbnail-1000/*
 # testing
 /coverage
 

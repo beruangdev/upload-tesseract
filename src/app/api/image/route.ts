@@ -45,9 +45,6 @@ export async function POST(req: NextRequest) {
   return NextResponse.json({ success: true });
 }
 
-export const config = {
-  runtime: "edge",
-};
 export async function GET(req: NextRequest) {
   const page = Number(req.nextUrl.searchParams.get("page") || 1);
   const perPage = Number(req.nextUrl.searchParams.get("perPage") || 20);
